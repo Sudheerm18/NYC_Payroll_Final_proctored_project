@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "nycdatafactory12"
+		},
+		"adls_linkedservice_accountKey": {
+			"value": ""
+		},
+		"ads_linkedservice_password": {
+			"value": ""
+		},
+		"adls_linkedservice_properties_typeProperties_url": {
+			"value": "https://nycpayrollstorageaccnt18.dfs.core.windows.net/"
+		},
+		"ads_linkedservice_properties_typeProperties_server": {
+			"value": "nycserver12.database.windows.net"
+		},
+		"ads_linkedservice_properties_typeProperties_database": {
+			"value": "nycdatabase"
+		},
+		"ads_linkedservice_properties_typeProperties_userName": {
+			"value": "azureuser"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
