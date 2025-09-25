@@ -1,0 +1,9 @@
+{
+	"name": "nycdatafactory12",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "10424865-5dbc-4fe8-9be0-ecda35c76552",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}

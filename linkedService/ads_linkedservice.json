@@ -1,0 +1,17 @@
+{
+	"name": "ads_linkedservice",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "nycserver12.database.windows.net",
+			"database": "nycdatabase",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "azureuser",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEU3OEE0RkE2LTc3RUUtNEVDRC04OUFDLTEzQURENUZFNUFFNV8xNDA3NmEyMC00Yjc4LTQ5OGEtOWViNS02ZmE2NDg3YTdiZDUiDQp9"
+		}
+	}
+}
